@@ -2,8 +2,8 @@
 
 [about](https://github.com/DarkFalc0n/TechList/blob/master/README.md#-about)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[getting started](https://github.com/DarkFalc0n/TechList/blob/master/README.md#-getting-started)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[license](https://github.com/DarkFalc0n/TechList/blob/master/README.md#-license)
 
-![Forks](https://badgen.net/github/forks/DarkFalc0n/TechList?icon=github&scale=1.2&color=red) &nbsp;
-![Stars](https://badgen.net/github/stars/DarkFalc0n/TechList?icon=https://upload.wikimedia.org/wikipedia/commons/a/a3/Orange_star.svg&scale=1.2&color=orange) &nbsp;
+![Forks](https://badgen.net/github/forks/DarkFalc0n/TechList?icon=github&scale=1.2&color=red&cache=300) &nbsp;
+![Stars](https://badgen.net/github/stars/DarkFalc0n/TechList?icon=https://upload.wikimedia.org/wikipedia/commons/a/a3/Orange_star.svg&scale=1.2&color=orange&cache=300) &nbsp;
 ![React version](https://badgen.net/badge/React/v18.2.0/blue?icon=https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg&scale=1.2) &nbsp;
 ![Express version](https://badgen.net/badge/Express/v4.18.2/green?icon=https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg&scale=1.2) &nbsp;
 ![Open Source](https://badgen.net/badge/open/source/cyan?scale=1.2) &nbsp;
