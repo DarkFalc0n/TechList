@@ -6,7 +6,7 @@
 ![Express version](https://badgen.net/badge/open/source/cyan?scale=1.2) &nbsp;
 
 ## 📋 About 
-TechList is an open source social media by and for students and coders. It is a free and open community to share opportunities, have healthy discussions on programming languages and technologies or even to show off your latest rank in a coding contest or your new project.
+TechList is an open source social media by and for students and coders. It is a free and open community to share opportunities, have healthy discussions on programming languages and technologies or even to show off your achievements and projects.
 <br>
 We hope to meet you @TechList 😇
 
