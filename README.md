@@ -5,12 +5,12 @@
 ![Express version](https://badgen.net/badge/Express/v4.18.2/green?icon=https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg&scale=1.2) &nbsp;
 ![Express version](https://badgen.net/badge/open/source/cyan?scale=1.2) &nbsp;
 
-## About 
+## 📋 About 
 TechList is an open source social media by and for students and coders. It is a free and open community to share opportunities, have healthy discussions on programming languages and technologies or even to show off your latest rank in a coding contest or your new project.
 <br>
 We hope to meet you @TechList!
 
-## Getting started
+## ✨ Getting started
 
 To install the dependencies:
 ```bash
@@ -40,5 +40,5 @@ yarn start
 ```
 
 
-## License
-![MIT](https://github.com/DarkFalc0n/TechList/blob/master/LICENSE)
+## 📜 License
+[MIT](https://github.com/DarkFalc0n/TechList/blob/master/LICENSE)
