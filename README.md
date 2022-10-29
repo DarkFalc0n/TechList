@@ -8,7 +8,7 @@
 ## 📋 About 
 TechList is an open source social media by and for students and coders. It is a free and open community to share opportunities, have healthy discussions on programming languages and technologies or even to show off your latest rank in a coding contest or your new project.
 <br>
-We hope to meet you @TechList!
+We hope to meet you @TechList 😇
 
 ## ✨ Getting started
 
