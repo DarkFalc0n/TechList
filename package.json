@@ -1,0 +1,21 @@
+{
+  "name": "techlist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:backend": "yarn workspace @techlist/backend start",
+    "start:frontend": "yarn workspace @techlist/frontend  start",
+    "start": "concurrently \"yarn start:backend\" \"yarn start:frontend\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "src/*"
+  ],
+  "repository": "https://github.com/DarkFalc0n/TechList",
+  "author": "DarkFalc0n",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "concurrently": "^7.5.0"
+  }
+}
