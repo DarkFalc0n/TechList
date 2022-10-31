@@ -22,7 +22,7 @@ If you do not have yarn installed, install it globally using:
 npm i --g yarn
 ```
 
-To install the dependencies:
+To install the dependencies wherever required:
 
 ```
 yarn install
@@ -35,13 +35,11 @@ yarn start
 Or, you can use the following to run a specific service:
 ```
 cd src/frontend
-yarn install
 yarn start
 ```
 &nbsp; &nbsp; or
 ```
 cd src/backend
-yarn install
 yarn dev
 ```
 
