@@ -6,8 +6,8 @@ const Navbar = () => {
             <div className="w-9/12 flex flex-row justify-between m-auto">
                 <div className="text-3xl font-black mt-1">TechList</div>
                 <div className="flex flex-row justify-between">
-                    <button className="bg-slate-600 text-white py-2 px-4 m-1">Login</button>
-                    <button className="bg-slate-600 text-white py-2 px-4 m-1">Signup</button>
+                    <button className="bg-slate-600 text-white py-2 px-4 m-2">Login</button>
+                    <button className="bg-slate-600 text-white py-2 px-4 m-2">Signup</button>
                 </div>
             </div>
         </div>
