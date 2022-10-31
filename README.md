@@ -17,31 +17,30 @@ We hope to meet you @TechList 😇
 
 ## ✨ Getting started
 
-To install the dependencies:
+If you do not have yarn installed, install it globally using: 
 ```bash
-npm i
+npm i --g yarn
 ```
-&nbsp; &nbsp; or
+
+To install the dependencies:
+
 ```
 yarn install
 ```
 To start both the backend and frontend services concurrently, use the follwing at the root directory:
-```
-npm start
-```
-&nbsp; &nbsp; or
+
 ```
 yarn start
 ```
 Or, you can use the following to run a specific service:
 ```
-cd src/<YOUR_DIRECTORY>
-npm start
+cd src/frontend
+yarn start
 ```
 &nbsp; &nbsp; or
 ```
-cd src/<YOUR_DIRECTORY>
-yarn start
+cd src/backend
+yarn dev
 ```
 
 
