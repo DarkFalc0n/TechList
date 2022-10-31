@@ -11,13 +11,13 @@ const Signup = () => {
                 </div>
                 <form className="flex flex-col mt-12">
                     <label className="text-slate-600 m-1 mb-0" for="Username">Username</label>
-                    <input className="h-8 m-1 mb-4 px-4" type="text" id="fname" name="fname" />
+                    <input className="h-8 m-1 mb-4 px-4" type="text" id="fname" name="fname" placeholder="John" />
                     <label className="text-slate-600 m-1 mb-0" for="email">Email</label>
-                    <input className="h-8 m-1 mb-4 px-4" type="text" id="email" name="email" />
+                    <input className="h-8 m-1 mb-4 px-4" type="text" id="email" name="email" placeholder="john@example.com" />
                     <label className="text-slate-600 m-1 mb-0" for="pass">Password</label>
-                    <input className="h-8 m-1 mb-4 px-4" type="password" id="pass" name="pass" />
+                    <input className="h-8 m-1 mb-4 px-4" type="password" id="pass" name="pass" placeholder="*************" />
                     <label className="text-slate-600 m-1 mb-0" for="pass">Confirm Password</label>
-                    <input className="h-8 m-1 mb-4 px-4" type="password" id="cpass" name="cpass" />
+                    <input className="h-8 m-1 mb-4 px-4" type="password" id="cpass" name="cpass" placeholder="*************" />
                     <button type="submit" className="text-white bg-slate-600 m-auto mt-10 px-4 py-2 text-xl">Submit</button>
                 </form>
                 <Link to="/login">
