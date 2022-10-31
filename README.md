@@ -35,11 +35,13 @@ yarn start
 Or, you can use the following to run a specific service:
 ```
 cd src/frontend
+yarn install
 yarn start
 ```
 &nbsp; &nbsp; or
 ```
 cd src/backend
+yarn install
 yarn dev
 ```
 
