@@ -6,6 +6,7 @@ import morgan from "morgan";
 
 import userrouter from "./routes/users";
 import authrouter from "./routes/auth";
+import postsrouter from "./routes/posts";
 
 
 
@@ -32,6 +33,7 @@ app.use(morgan("common"));
 //routes
 app.use("/api/users", userrouter);
 app.use("/api/auth", authrouter);
+app.use("/api/posts", postsrouter);
 
 //api listening at port 5000
 app.listen(5000, () => {
