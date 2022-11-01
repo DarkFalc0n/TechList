@@ -9,13 +9,17 @@ const Post = (props) => {
             <div className="text-left text-slate-800 mt-2">
                 {props.data.desc}
             </div>
+            {(props.data.img) &&
+                <div
+                    style={{ "background": `url(${props.data.img})`, "background-size": "auto" }}
+                    className="w-full h-64 my-4"></div>}
             <div className="my-4 text-slate-500 flex flex-row">
                 <ThumbsUp />
                 <div className="ml-2 align-middle font-bold ">
                     {props.data.likes}
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

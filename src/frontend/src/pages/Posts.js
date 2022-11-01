@@ -13,6 +13,7 @@ const Posts = () => {
             <Post data={{
                 "user": "john",
                 "likes": 128,
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png",
                 "desc": "Donec a magna mi. Sed dignissim ipsum metus, eu eleifend purus vulputate vitae. Aliquam placerat, est at blandit cursus, felis justo sollicitudin orci, sed suscipit elit orci vel velit."
             }} />
         </div>
