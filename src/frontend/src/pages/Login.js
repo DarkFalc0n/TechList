@@ -1,13 +1,18 @@
-import { React, useRef } from 'react'
-import { Link } from "react-router-dom";
+import { React, useRef, useContext } from 'react'
+import { Link, Navigate } from "react-router-dom";
+import { login } from "../utils/apiCalls";
+import { AuthContext } from "../context/AuthContext";
 
 const Login = () => {
     const email = useRef();
     const password = useRef();
+    const { user, isFetching, error, dispatch } = useContext(AuthContext);
+
     const handleLogin = (e) => {
         e.preventDefault();
-        console.log("Click");
+        login({ email: email.current.value, password: password.current.value }, dispatch);
     }
+
     return (
         <div className="w-full">
             <div className="w-1/4 bg-slate-100 m-auto mt-12 px-8 py-8">
@@ -33,7 +38,7 @@ const Login = () => {
                         name="pass"
                         required
                         minLength="6"
-                        placeholder="*************"
+                        placeholder="******"
                         ref={password}
                     />
                     <button type="submit" className="text-white bg-slate-600 m-auto mt-10 px-4 py-2 text-xl">Submit</button>
