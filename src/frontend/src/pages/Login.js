@@ -11,6 +11,7 @@ const Login = () => {
     const handleLogin = (e) => {
         e.preventDefault();
         login({ email: email.current.value, password: password.current.value }, dispatch);
+        (user) && <Navigate to="/" exact replace={true} />
     }
 
     return (
